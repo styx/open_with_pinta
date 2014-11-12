@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Open with Pinta",
+  "short_name": "Open with Pinta",
+  "description": "Open images with Pinta via right mouse click on image",
+  "version": "0.1",
+  "permissions": ["contextMenus","nativeMessaging"],
+  "icons": {
+    "16": "icon-xs.png",
+    "48": "icon-s.png",
+    "128": "icon-l.png"
+  },
+  "background": {
+    "scripts": ["main.js"]
+  }
+}
